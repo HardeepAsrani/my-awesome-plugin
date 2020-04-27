@@ -40,7 +40,7 @@ class App extends Component {
 		};
 	}
 
-	async componentDidMount() {
+	componentDidMount() {
 		wp.api.loadPromise.then( () => {
 			this.settings = new wp.api.models.Settings();
 
